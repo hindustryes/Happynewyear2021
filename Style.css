@@ -1,0 +1,345 @@
+/* Created by ❗Close ❗Dheerajkanaujiya */
+
+
+
+body {
+
+    margin:0;
+
+    padding:0;
+
+}
+
+.hero{
+
+    height:100vh;
+
+    width:100%;
+
+    background-image:url("https://www.dropbox.com/s/o5tcr1qo5o03lpe/Happy-New-Year-681x513.png?dl=1");
+
+    background-size:cover;
+
+    background-position:center ;
+
+    position:relative ;
+
+    background-size:25%;
+
+    overflow-x:hidden ;
+
+    animation:cm 2s linear infinite ;
+
+}
+
+.rode{
+
+    height:200px;
+
+    width:10000%;
+
+    display:block ;
+
+    background-image:url("https://www.dropbox.com/s/n3d0byvqa18yi89/Screenshot_20201221-212115_1.png?dl=1");
+
+    position:absolute ;
+
+    bottom:0;
+
+    left:0;
+
+    right:0;
+
+    z-index:1;
+
+    background-repeat:repeat;
+
+    animation:rod 2s linear infinite ;
+
+}
+
+@keyframes rod{
+
+    100%{
+
+    transform:translateX(-400px);}
+
+}
+
+.car{
+
+    width:200px;
+
+    left:22%;
+
+    bottom:25px;
+
+    transform:translate(-35%);
+
+    position:absolute ;
+
+    z-index:2;
+
+}
+
+.car img{
+
+    width:100%;
+
+    animation:car 1s linear infinite ;
+
+}
+
+@keyframes car{
+
+    100%{transform:translateX(500px);}
+
+}
+
+.wheel{
+
+      left:50%;
+
+      bottom:23px;
+
+      transform:translateX  (-50%);
+
+      position:absolute ;
+
+      z-index:2;
+
+      animation:car 1s linear infinite ;
+
+}
+
+.wheel img{
+
+    width:20px;
+
+    height:19px;
+
+    transform:fill-box;
+
+    animation:wheel 1s linear infinite ;
+
+    
+
+}
+
+.bw{
+
+    left:-139px;
+
+    position:absolute ;
+
+}
+
+.fw{
+
+    left:-70;
+
+    bottom:50px;
+
+    position:;
+
+}
+
+@keyframes wheel{
+
+    100%{
+
+        transform:rotate(560deg);
+
+    }
+
+}  
+
+.New{
+
+     text-align:center ;
+
+     margin:0px;
+
+     padding:50px;
+
+      color:#55EE00;
+
+      text-shadow:5px 4px 2px #ff6600;
+
+      animation:new 10s linear  ;
+
+      animation-direction:;
+
+}
+
+@keyframes new{
+
+    0%{color:#ff00ff;}
+
+    5%{color:#ff66ff;}
+
+    10%{color:#6600ff;}
+
+    15%{color:#ffccff;}
+
+    20%{color:#ff88ff;}
+
+    25%{color:#66ccff;}
+
+    30%{color:#cc00ff;}
+
+    35%{color:#ff00cc;}
+
+    40%{color:#ff0066;}
+
+    45%{color:#ff0fff;}
+
+    50%{color:#ff00f0;}
+
+    55%{color:#0000ff;}
+
+    60%{color:#0000ff;}
+
+    65%{color:#ff6cff;}
+
+    70%{color:#fff000;}
+
+    75%{color:#ff00ff;}
+
+    80%{color:#ffcccc;}
+
+    95%{color:#f0f0ff;}
+
+    100%{color:#ff8899;}
+
+    0%{font-size:100px;}
+
+    0%{text-shadow:2px 4px 4px #ffEEcc;}
+
+    
+
+}
+
+.I{
+
+    margin:0px;
+
+    padding:0px;
+
+    text-align:center ;
+
+    background-size:100px;
+
+    border:solid 2px #000;
+
+    border-radius:100px;
+
+    text-shadow: 3px 2px #ccEEcc;
+
+    color:#ff6688;
+
+    box-shadow:inset 10px 10px   #ff4c4c,inset -10px -10px  #EEff66;
+
+    animation:bor 2s linear infinite ;
+
+}
+
+@keyframes bor{
+
+    100%{background-image:url("https://www.dropbox.com/s/nslwdelk9bybxy8/Screenshot_20201224-225922_1.png?dl=1");}
+
+    10%{background-color:#000;}
+
+    50%{text-shadow:5px 8px 2px #0f0f55;}
+
+    0%{background-image:url("https://www.dropbox.com/s/fr6nqzmmxpec0j6/Screenshot_20201224-231346_1.png?dl=1");}
+
+}
+
+.ddd{
+
+     margin:20px;
+
+  float:center ;
+
+  border:5px solid #777ccc;
+
+  box-shadow:inset 4px 6px 5px #ffcc60,inset -4px -6px 5px #ff0000;
+
+  animation:colo 2s linear infinite ;
+
+  
+
+  
+
+  
+
+padding:5px;
+
+}
+
+div.ddd:hover {
+
+  border:1px solid #777;
+
+}
+
+div.ddd img {
+
+  width:100%;
+
+  height:auto;
+
+ 
+
+}
+
+@keyframes colo{
+
+    0%{background-color:#ff00ff;}
+
+    25%{background-color:#cc00cc;}
+
+    50%{background-color:#777fff;}
+
+    75%{background-color:#ff7700;}
+
+    100%{background-color:#ff6655;}
+
+}
+
+.thanks{
+
+       padding:50px;
+
+       animation:anim 5s linear infinite ;
+
+       
+
+    
+
+    
+
+       
+
+}
+
+@keyframes anim{
+
+    0%{background-color:#ff0000;}
+
+    10%{background-color:#0000ff;}
+
+    20%{background-color:#00ffff;}
+
+    30%{background-color:#ffff00;}
+
+    40%{background-color:#cc7755;}
+
+    100%{transform:rotate(50deg);}
+
+    50%{transform:rotate(-50deg);}
+
+    
+
+}
